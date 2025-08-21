@@ -240,6 +240,27 @@ let isPaused = false;
 // Botões de controle
 const startBtn = document.getElementById("startBtn");
 const pauseBtn = document.getElementById("pauseBtn");
+// Controles móveis
+const upBtn = document.getElementById("upBtn");
+const downBtn = document.getElementById("downBtn");
+const leftBtn = document.getElementById("leftBtn");
+const rightBtn = document.getElementById("rightBtn");
+
+if (upBtn) {
+    upBtn.addEventListener("click", () => {
+        if (direction !== "DOWN") direction = "UP";
+    });
+    downBtn.addEventListener("click", () => {
+        if (direction !== "UP") direction = "DOWN";
+    });
+    leftBtn.addEventListener("click", () => {
+        if (direction !== "RIGHT") direction = "LEFT";
+    });
+    rightBtn.addEventListener("click", () => {
+        if (direction !== "LEFT") direction = "RIGHT";
+    });
+}
+
 
 startBtn.addEventListener("click", () => {
     startGame();

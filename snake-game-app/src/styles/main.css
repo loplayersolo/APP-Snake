@@ -63,3 +63,40 @@ h1 {
     background: #ffd633;
 }
 
+.mobile-controls {
+  display: none; /* só aparece em celular */
+  margin-top: 16px;
+  text-align: center;
+}
+
+.mobile-controls button {
+  background: #ffe066;
+  border: none;
+  border-radius: 8px;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 4px;
+  cursor: pointer;
+  color: #111;
+  transition: background 0.2s ease;
+}
+
+.mobile-controls button:hover {
+  background: #ffd633;
+}
+
+.middle-row {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* Mostrar só em telas pequenas */
+@media (max-width: 768px) {
+  .mobile-controls {
+    display: block;
+  }
+}
+
