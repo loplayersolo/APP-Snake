@@ -10,7 +10,7 @@
     "icons":[
         {
             "src":"img/logo.png",
-            "sizes":"50x50"
+            "sizes":"512x512"
         }
     ],
     "lang":"pt-br",
