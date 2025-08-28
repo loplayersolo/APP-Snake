@@ -1,0 +1,21 @@
+{
+    "name":"Meu primeiro PWA",
+    "short_name":"Meu PWA",
+    "description":"Aplicativo feito durante a aula de TDS",
+    "start_url":"https://loplayersolo.github.io/APP-Snake/",
+    "background_color":"#ffe066",
+    "theme_color":"#ffe066",
+    "scope":"https://loplayersolo.github.io/APP-Snake/",
+    "display":"standalone",
+    "icons":[
+        {
+            "src":"img/logo.png",
+            "sizes":"50x50"
+        }
+    ],
+    "lang":"pt-br",
+    "dir":"auto",
+    "categorias":"games",
+    "id":"pwa_teste",
+    "orientation":"any"
+}
